@@ -1,96 +1,74 @@
-**Sentiment Analysis Project – Codveda Internship**
+***Sentiment Analysis Project***
 
- **Project Overview**
+**Project Overview**
 
-This project was completed as part of my Data Analysis Internship at Codveda Technologies (Aug–Sep 2025).
-The dataset contained 732 social media posts across multiple platforms (Twitter, Instagram, etc.) with attributes like text, sentiment, user, country, likes, and retweets.
+This project analyzes a sentiment dataset to explore patterns in user posts across platforms, time, and sentiment categories. The goal was to clean, explore, and visualize the data to extract actionable insights.
 
-The goal was to:
+**Dataset**
 
-- Clean and preprocess the dataset
+Source: Provided as part of internship tasks
 
-- Perform Exploratory Data Analysis (EDA)
+Size: 732 rows × 15 columns
 
-- Visualize patterns in sentiment distribution, engagement (likes & retweets), and posting activity
+Key Columns: Text, Sentiment, Timestamp, Platform, Likes, Retweets, Country
 
-- Derive actionable insights
+**Tools & Skills Used**
 
-**Tools & Libraries Used**
+- Python (Pandas, NumPy) – Data cleaning & manipulation
 
-- Python: Pandas, NumPy, Matplotlib, Seaborn
+- Matplotlib & Seaborn – Data visualization
 
-- Jupyter Notebook for analysis & documentation
+- Jupyter Notebook – Analysis & documentation
 
-- GitHub for portfolio showcase
+- GitHub – Version control & portfolio sharing
 
-**Dataset Details**
+**Analysis Performed**
 
-Rows: 732
+- Data Cleaning
 
-Columns: 15
+- Removed duplicates
 
-Key Features:
+- Standardized date & categorical formats
 
-Text – Post content
+- Checked for missing values
 
-Sentiment – Positive, Negative, Neutral
+- Exploratory Data Analysis (EDA)
 
-Platform – Social media platform
+- Sentiment distribution
 
-Likes & Retweets – Engagement metrics
+- Posts per platform
 
-Timestamp – Posting time
+- Activity by weekday & hour
 
-Country, Year, Month, Day, Hour
+- Yearly sentiment trend
 
-**Analysis & Visualizations**
+- Likes & retweets distribution by sentiment
 
-Here are the key charts generated:
+**Key Visualizations**
 
-1. Top 10 Most Common Sentiments
+Top 10 most common sentiments
 
-2. Posts per Hour of the Day
+Posts per weekday & per hour
 
-3. Sentiment by Platform
+Sentiment distribution across platforms
 
-4. Posts per Weekday
+Yearly sentiment trends
 
-5. Posts per Platform
+Like & retweet distributions by sentiment
 
-6. Yearly Sentiment Trend
+**Insights**
 
-7. Likes Distribution by Sentiment
+Positive posts were the most frequent sentiment.
 
-8. Retweets Distribution by Sentiment
+Twitter & Instagram had the highest user engagement.
 
- **Key Insights**
+Activity peaked during weekdays, especially in working hours.
 
-Positive sentiment was the most frequent across platforms.
-
-Posting activity peaked during evening hours (15–20h).
-
-Twitter had the highest posting volume compared to other platforms.
-
-Sentiment distribution varied by platform, with Instagram showing more positive posts.
-
-Engagement (likes & retweets) was higher for positive posts compared to negative ones.
+Positive posts received more likes, while neutral/negative posts had fewer interactions.
 
  **Conclusion**
 
-This project highlights the importance of EDA in understanding social media sentiment trends.
-It also demonstrates my ability to handle text-based datasets, clean and process data, and communicate findings with visualizations.
-
- Next Steps
-
-Extend analysis with Natural Language Processing (NLP) for deeper sentiment classification.
-
-Build an interactive dashboard using Power BI / Tableau.
-
-**Files in Repository**
-
-Sentiment_EDA.ipynb → Jupyter Notebook with full analysis
-
-Sentiment_EDA.html → Exported report for easy viewing
+The analysis shows that sentiment strongly influences engagement. Businesses and brands can leverage this by focusing on positive and empathetic content to maximize reach and interaction.
 
 **Project Links**
 
